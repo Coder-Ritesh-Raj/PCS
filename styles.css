@@ -90,8 +90,11 @@ video {
 }
 
 mark{
-    background-color: red;
+    background-color: aqua;
     font-weight: bold;
+}
+.nextcolor{
+    background-color:aqua;
 }
 .color{
     background-color:red;
@@ -200,4 +203,7 @@ mark{
 
 .gallery-item img:hover {
     transform: scale(1.1);
+}
+.image{
+    text-align: right;
 }
