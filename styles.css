@@ -1,16 +1,28 @@
-body{
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
 header {
     background-color: orangered;
     color: #ffffff;
     padding: 10px 0;
-    text-align: center;
-    left: 100px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between logo and text */
+    padding-left: 20px; /* Add some left padding */
+}
+
+header img.LOGO {
+    height: 100px; /* Adjust the height of the logo */
+    margin-right: 20px; /* Space between logo and text */
+}
+
+header h1, header h3 {
+    margin: 0; /* Remove default margins */
+    text-align: center; /* Center the text */
 }
 
 nav ul li {
@@ -62,14 +74,6 @@ footer {
     bottom: 0;
 }
 
-.LOGO{
-
-    height: 190px; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-}
 .video-container {
     display: flex;
     justify-content: center;
@@ -89,17 +93,6 @@ video {
     border-radius: 8px;
 }
 
-mark{
-    background-color: aqua;
-    font-weight: bold;
-}
-.nextcolor{
-    background-color:aqua;
-}
-.color{
-    background-color:red;
-    font-weight: bold;
-}
 .review-section {
     width: 80%;
     max-width: 800px;
@@ -161,49 +154,4 @@ mark{
 
 .review-form button:hover {
     background-color: #4cae4c;
-}
-
-.gallery {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.gallery h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: #333;
-}
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-}
-
-.gallery-item {
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.gallery-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.gallery-item img:hover {
-    transform: scale(1.1);
-}
-.image{
-    text-align: right;
 }

@@ -1,133 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <link
-      rel="shortcut icon"
-      type="x-icon"
-      href="https://www.aspcspatna.ac.in/images/pcs-logo.png"
+        rel="shortcut icon"
+        type="x-icon"
+        href="https://www.aspcspatna.ac.in/images/pcs-logo.png"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patna Central School</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <img
-        class="LOGO"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGmq1qRtVuM4KkpnkhJWSjTZf2apPcbOFrw&s"
-        alt="LOGO"
-      />
-      <h1>Acharya Shri Sudarshan Patna Central School</h1>
-      <h3> (Affiliated to CBSE, New Delhi, Upto +2 level)</h3>
-      <h3>Sudarshan Vihar, New Bypass Road, Patna - 800 027</h3>
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <img
+            class="LOGO"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGmq1qRtVuM4KkpnkhJWSjTZf2apPcbOFrw&s"
+            alt="LOGO"
+        />
+        <div>
+            <h1>Acharya Shri Sudarshan Patna Central School</h1>
+            <h3>(Affiliated to CBSE, New Delhi, Upto +2 level)</h3>
+            <h3>Sudarshan Vihar, New Bypass Road, Patna - 800 027</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="home">
-      <section id="welcome">
-        <h2>Welcome to Acharya Shri Sudarshan Patna Central School</h2>
-        <p>Providing quality education since 1980.</p>
-        <div class="video-container">
-          <video src="https://www.aspcspatna.ac.in/videos/pcsvideos.mp4" controls autoplay loop>ERROR</video>
+        <section id="welcome">
+            <h2>Welcome to Acharya Shri Sudarshan Patna Central School</h2>
+            <p>Providing quality education since 1980.</p>
+            <div class="video-container">
+                <video src="https://www.aspcspatna.ac.in/videos/pcsvideos.mp4" controls autoplay loop>ERROR</video>
+            </div>
+        </section>
+
+        <div class="review-section">
+            <h2>Student Reviews</h2>
+            <div class="reviews-list">
+                <div class="review">
+                    <h3>Aarav Singh</h3>
+                    <p>The teachers here are amazing, and the facilities are top-notch. I’ve learned so much this year!</p>
+                </div>
+                <div class="review">
+                    <h3>Satyam Kumar</h3>
+                    <p>I love the friendly atmosphere and the diverse range of extracurricular activities offered.</p>
+                </div>
+                <div class="review">
+                    <h3>Aryan Raj</h3>
+                    <p>Acharya Shri Sudarshan Patna Central School has truly been a transformative experience for me...</p>
+                </div>
+                <div class="review">
+                    <h3>Priya S.</h3>
+                    <p>Acharya Shri Sudarshan Patna Central School has been a fantastic place for my learning journey...</p>
+                </div>
+                <div class="review">
+                    <h3>Himanshu V.</h3>
+                    <p>Acharya Shri Sudarshan Patna Central School has provided me with an outstanding learning environment...</p>
+                </div>
+                <div class="review">
+                    <h3>Kishlay Kunal</h3>
+                    <p>Acharya Shri Sudarshan Patna Central School has truly been a transformative experience for me...</p>
+                </div>
+            </div>
+            <h3>Leave a Review</h3>
+            <form class="review-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
         </div>
-      </section>
 
-      <!-- <section id="about">
-        <h2>About Us</h2>
-        <p>
-          Patna Central School is dedicated to fostering academic excellence and
-          personal growth. Our experienced faculty and comprehensive curriculum
-          ensure a well-rounded education for every student.
-        </p>
-        <button id="learnMoreBtn">Learn More</button>
-        <div id="moreInfo" style="display: none">
-          <p>
-            Our mission is to create a learning environment where students can
-            achieve their highest potential. We offer a range of extracurricular
-            activities to complement our academic programs.
-          </p>
-        </div>
-      </section> -->
-      <div class="review-section">
-        <h2>Student Reviews</h2>
-        <div class="reviews-list">
-          <div class="review">
-            <h3>Aarav Singh</h3>
-            <p>
-              The teachers here are amazing, and the facilities are top-notch.
-              I’ve learned so much this year!
-            </p>
-          </div>
-          <div class="review">
-            <h3>Satyam Kumar</h3>
-            <p>
-              I love the friendly atmosphere and the diverse range of
-              extracurricular activities offered.
-            </p>
-          </div>
-          <div class="review">
-            <h3>Aryan Raj</h3>
-            <p>
-              Acharya Shri Sudarshan Patna Central School has truly been a transformative experience for me. The teachers here are incredibly passionate and dedicated, always willing to help us understand complex concepts and excel in our studies. The school’s focus on holistic education means that we’re not just learning from textbooks, but also developing important life skills and values. I feel well-prepared for the future thanks to the excellent education and support I’ve received here.
-            </p>
-          </div>
-          <div class="review">
-            <h3>Priya S.</h3>
-            <p>
-              Acharya Shri Sudarshan Patna Central School has been a fantastic place for my learning journey. The teachers are incredibly supportive and always ready to help. The school has a great atmosphere, and I love the variety of extracurricular activities available. The emphasis on both academics and personal development has really helped me grow.
-            </p>
-          </div>
-          <div class="review">
-            <h3>Himanshu V.</h3>
-            <p>
-              Acharya Shri Sudarshan Patna Central School has provided me with an outstanding learning environment. The teachers here are incredibly dedicated and always make sure that we understand the material thoroughly. I’ve grown so much academically and personally due to their support. The school’s modern facilities and engaging teaching methods have made learning both fun and effective.       
-            </p>
-          </div>
-          <div class="review">
-            <h3>Kishlay Kunal</h3>
-            <p>
-              Acharya Shri Sudarshan Patna Central School has truly been a transformative experience for me. The teachers here are incredibly passionate and dedicated, always willing to help us understand complex concepts and excel in our studies. The school’s focus on holistic education means that we’re not just learning from textbooks, but also developing important life skills and values. I feel well-prepared for the future thanks to the excellent education and support I’ve received here.
-            </p>
-          </div>
-          <!-- Add more reviews here -->
-        </div>
-        <h3>Leave a Review</h3>
-        <form class="review-form">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="review">Review:</label>
-          <textarea id="review" name="review" rows="4" required></textarea>
-
-          <button type="submit">Submit Review</button>
-        </form>
-      </div>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>
-          Email:<a href="mailto:info@shrisudarshanjimaharaj.org"
-            >info@shrisudarshanjimaharaj.org</a
-          >
-        </p>
-        <p>Phone:+91 933 448 6076.</p> <br>
-      </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@shrisudarshanjimaharaj.org">info@shrisudarshanjimaharaj.org</a></p>
+            <p>Phone: +91 933 448 6076.</p>
+        </section>
     </main>
+
     <footer>
-      <p>
-        &copy; 2024 Patna Central School. All rights reserved & Developed by
-        Ritesh Raj
-      </p>
+        <p>&copy; 2024 Patna Central School. All rights reserved & Developed by Ritesh Raj</p>
     </footer>
     <script src="scripts.js"></script>
-  </body>
+</body>
 </html>
