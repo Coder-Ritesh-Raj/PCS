@@ -9,20 +9,12 @@ header {
     background-color: orangered;
     color: #ffffff;
     padding: 10px 0;
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center vertically */
-    justify-content: space-between; /* Space between logo and text */
-    padding-left: 20px; /* Add some left padding */
+    text-align: center;
 }
 
-header img.LOGO {
-    height: 100px; /* Adjust the height of the logo */
-    margin-right: 20px; /* Space between logo and text */
-}
-
-header h1, header h3 {
-    margin: 0; /* Remove default margins */
-    text-align: center; /* Center the text */
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -68,10 +60,16 @@ footer {
     background-color: orangered;
     color: #ffffff;
     text-align: center;
-    padding: 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 10px 0;
+    position: relative;
+}
+
+.LOGO {
+    height: 190px; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
 }
 
 .video-container {
