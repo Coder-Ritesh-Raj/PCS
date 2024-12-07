@@ -1,77 +1,68 @@
-body {
+/* body */
+body{
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-header {
+/* header section */
+header{
     background-color: orangered;
     color: #ffffff;
-    padding: 10px 0;
     text-align: center;
+    padding: 10px 0;
 }
 
+/* nav section */
 nav ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+nav ul li{
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    border-bottom: 4px solid #003366;
-    padding-bottom: 5px;
-}
-
-button {
-    background-color: #003366;
+nav ul li a{
     color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover {
-    background-color: #002244;
+nav ul li a:hover{
+    text-decoration:underline;
 }
 
-footer {
-    background-color: orangered;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-}
-
-.LOGO {
-    height: 190px; 
+/* img section  */
+.logo{
+    height: 190px;
     position: absolute;
     top: 10px;
     left: 10px;
     padding: 10px;
 }
 
-.video-container {
+/* main section */
+main{
+    padding: 20px;
+}
+
+h2{
+    border-bottom:  4px solid darkblue;
+    padding-bottom: 5px;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-container{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
@@ -81,13 +72,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-video {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.review-section {
+.review-section{
     width: 80%;
     max-width: 800px;
     margin: 20px auto;
@@ -95,6 +80,11 @@ video {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-form{
+    display: flex;
+    flex-direction: column;
 }
 
 .review-section h2 {
@@ -117,11 +107,6 @@ video {
     margin-top: 0;
 }
 
-.review-form {
-    display: flex;
-    flex-direction: column;
-}
-
 .review-form label {
     margin-top: 10px;
     font-weight: bold;
@@ -134,6 +119,7 @@ video {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+
 
 .review-form button {
     margin-top: 10px;
@@ -148,4 +134,14 @@ video {
 
 .review-form button:hover {
     background-color: #4cae4c;
+}
+
+
+/* footer section */
+footer{
+    background-color: orangered;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
 }
